@@ -3,7 +3,7 @@
  * Includes functions that handle registration/enqueuing of meta tags, styles,
  * and scripts in the document head and footer.
  **/
-namespace VictimServices\Theme\Includes\Meta;
+//namespace VictimServices\Theme\Includes\Meta;
 
 
 /**

@@ -2,7 +2,7 @@
 /**
  * Handle all theme configuration here
  **/
-namespace VictimServices\Theme\Includes\Config;
+//namespace VictimServices\Theme\Includes\Config;
 
 
 define( 'VICTIMSERVICES_THEME_URL', get_stylesheet_directory_uri() );
