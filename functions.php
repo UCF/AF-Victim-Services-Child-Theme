@@ -35,17 +35,3 @@ function custom_post_type() {
 	register_post_type('resource_post', $args);
 }
 add_action('init', 'custom_post_type');
-
-// Add menu item to WP Admin sidebar
-function custom_post_type_menu() {
-	add_menu_page(
-		'Resource Posts', // Page title
-		'Resource Posts', // Menu title
-		'manage_options', // Capability required to access the page
-		'edit.php?post_type=resource_post', // URL slug
-		'', // Function to display the page content (we're not using this)
-		'dashicons-admin-post', // Icon for the menu item
-		20 // Position of the menu item
-	);
-}
-add_action('admin_menu', 'custom_post_type_menu');
