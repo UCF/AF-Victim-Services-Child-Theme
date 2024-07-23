@@ -6,8 +6,7 @@
 		var RippleLiveChat_SiteId = 3000078;
 		(function() {
 		var s = document.createElement('script'); s.type = 'text/javascript';
-		s.src = 'https://cdn.ripplegroup.ca/ripple.livechatclient/js/rlv-loader.min.js?' +
-		(new Date().getTime());
+		s.src = 'https://cdn.ripplegroup.ca/ripple.livechatclient/js/rlv-loader.min.js?' + (new Date().getTime());
 		document.body.appendChild(s);
 		})();
 		</script>
