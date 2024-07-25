@@ -17,6 +17,7 @@ Head over to the [AF Victim Services Child Theme wiki](https://github.com/UCF/AF
 -----
 
 ## Development
+Host: Pantheon
 
 Note that compiled, minified css and js files are included within the repo.  Changes to these files should be tracked via git (so that users installing the theme using traditional installation methods will have a working theme out-of-the-box.)
 
@@ -40,6 +41,9 @@ Note that compiled, minified css and js files are included within the repo.  Cha
 6. Make sure you've completed [all theme configuration steps](https://github.com/UCF/AF-Victim-Services-Child-Theme/wiki/Installation#theme-configuration).
 7. Run `gulp watch` to continuously watch changes to scss and js files.  If you enabled BrowserSync in `gulp-config.json`, it will also reload your browser when scss or js files change.
 
+
+## Changelog
+Version: 0.1.5 - Added Izzy Chat Code service now ticket: TASK0627232
 
 ## Contributing
 
